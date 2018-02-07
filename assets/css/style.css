@@ -1,0 +1,66 @@
+/* LAYOUT FOR EVERYPAGE */
+body {
+     background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/itCjTBE/videoblocks-light-grey-and-blue-tech-geometric-motion-design-video-animation-ultra-hd-4k-3840x2160_s-m34-dzb_thumbnail-full01.png"); 
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr {
+    width: 90%;
+    height: 1px;
+    background-color: #7d7d7e;
+}
+.bg-light{
+    background-image: url(https://wallpaperscraft.com/image/gray_white_spots_abstraction_faded_65625_1920x1080.jpg);
+    padding: 15px;
+    border-bottom: 3px solid #000000;
+}
+.navbar-brand{
+    padding: 25px;
+    margin-left: 13.5%;
+}
+.navbar-light .navbar-brand{
+    color: #000000;
+    font-family: Rationale;
+    font-size: 40px;
+}
+
+.footer {
+    background-image: url(https://wallpaperscraft.com/image/gray_white_spots_abstraction_faded_65625_1920x1080.jpg);
+    border-top: 3px solid #000000;
+}
+.text-muted{
+    color: #000000 !important;
+    font-size: 25px;
+}
+/* END LAYOUT FOR EVERYPAGE */
+
+/* ABOUT PAGE START */
+/*.col-sm-6.col-md-4.col-lg-7{
+    background-color: rgb(43,42, 42);
+    color: #007bb6;
+    font-size: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+    overflow: auto;
+}
+.col-sm-6.col-md-4.col-lg-7 img{
+    padding: 25px;
+}
+.col-sm-6.col-md-4.col-lg-7 h1{
+    padding: 25px;
+}
+.col-sm-6.col-md-4.col-lg-4{
+    background-color: rgb(43,42, 42);
+    color: #007bb6;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.col-sm-6.col-md-4.col-lg-4 h1{
+    padding: 25px;
+}
+
+
+/* ABOUT PAGE END */
+
+
+
+
