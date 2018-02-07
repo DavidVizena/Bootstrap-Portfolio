@@ -40,15 +40,54 @@ div#navbarNav.collapse.navbar-collapse{
     left: 0;
     right: 0;
     height: 75px;
+    z-index: 3;
 }
 .text-muted{
     color: #000000 !important;
     font-size: 25px;
     margin-top: 5px;
 }
+.contentWrapper{
+    width: 80%;
+}
 /* END LAYOUT FOR EVERYPAGE */
 
 /* ABOUT PAGE START */
+.col-sm-12.col-md-4.col-lg-7{
+    background-color: rgb(43,42, 42);
+    color: #007bb6;
+    font-size: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+    overflow: auto;
+    padding-bottom: 100px;
+    margin-bottom: 10px;
+    height: 645px;
+    margin-left: 40px;
+}
+.col-sm-12.col-md-4.col-lg-7 img{
+    padding: 25px;
+}
+.col-sm-12.col-md-4.col-lg-7 h1{
+    padding: 25px;
+}
+.col-sm-12.col-md-4.col-lg-4{
+    background-color: rgb(43,42, 42);
+    color: #007bb6;
+    font-size: 25px;
+    margin-top: 10px;
+    height: 200px;
+}
+.col-sm-12.col-md-4.col-lg-4 h1{
+    padding: 15px;
+    font-size: 34px;
+}
+.links{
+    text-align: center;
+}
+/* ABOUT PAGE END */
+
+/* PORTFOLIO PAGE START */
 .col-sm-6.col-md-4.col-lg-7{
     background-color: rgb(43,42, 42);
     color: #007bb6;
@@ -59,41 +98,7 @@ div#navbarNav.collapse.navbar-collapse{
     padding-bottom: 100px;
     margin-bottom: 10px;
     height: 735px;
-    margin-left: 40px;
-}
-.col-sm-6.col-md-4.col-lg-7 img{
-    padding: 25px;
-}
-.col-sm-6.col-md-4.col-lg-7 h1{
-    padding: 25px;
-}
-.col-sm-6.col-md-4.col-lg-4{
-    background-color: rgb(43,42, 42);
-    color: #007bb6;
-    font-size: 25px;
-    margin-top: 10px;
-    height: 225px;
-}
-.col-sm-6.col-md-4.col-lg-4 h1{
-    padding: 25px;
-}
-.links{
-    text-align: center;
-}
-/* ABOUT PAGE END */
-
-/* PORTFOLIO PAGE START */
-.col-sm-6.col-md-4.col-lg-9{
-    background-color: rgb(43,42, 42);
-    color: #007bb6;
-    font-size: 25px;
-    margin-right: 25px;
-    margin-top: 10px;
-    overflow: auto;
-    padding-bottom: 100px;
-    margin-bottom: 10px;
-    height: 735px;
-    margin-left: -25px;
+    margin-left: 145px;
 }
 .col-sm-6.col-md-4.col-lg-3{
     background-color: rgb(43,42, 42);
@@ -138,10 +143,10 @@ div#navbarNav.collapse.navbar-collapse{
 
 /* CONTACT PAGE START */
 input#exampleInputPassword1.form-control{
-    height: 305px;
+    height: 200px;
 }
 /* CONTACT PAGE END */
-
-
+/* Media Queries START */
+/* Media Queries END */
 
 
