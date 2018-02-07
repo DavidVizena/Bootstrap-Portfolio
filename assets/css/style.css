@@ -81,6 +81,7 @@ div#navbarNav.collapse.navbar-collapse{
     text-align: center;
 }
 /* ABOUT PAGE END */
+
 /* PORTFOLIO PAGE START */
 .col-sm-6.col-md-4.col-lg-9{
     background-color: rgb(43,42, 42);
@@ -134,6 +135,12 @@ div#navbarNav.collapse.navbar-collapse{
     }
     
 /* PORTFOLIO PAGE END */
+
+/* CONTACT PAGE START */
+input#exampleInputPassword1.form-control{
+    height: 305px;
+}
+/* CONTACT PAGE END */
 
 
 
