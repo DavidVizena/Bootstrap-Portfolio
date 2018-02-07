@@ -55,7 +55,7 @@ div#navbarNav.collapse.navbar-collapse{
 /* ABOUT PAGE START */
 .col-sm-12.col-md-4.col-lg-7{
     background-color: rgb(43,42, 42);
-    color: #007bb6;
+    color: #00aeff;
     font-size: 25px;
     margin-right: 25px;
     margin-top: 10px;
@@ -73,7 +73,7 @@ div#navbarNav.collapse.navbar-collapse{
 }
 .col-sm-12.col-md-4.col-lg-4{
     background-color: rgb(43,42, 42);
-    color: #007bb6;
+    color: #00aeff;
     font-size: 25px;
     margin-top: 10px;
     height: 200px;
@@ -81,6 +81,7 @@ div#navbarNav.collapse.navbar-collapse{
 .col-sm-12.col-md-4.col-lg-4 h1{
     padding: 15px;
     font-size: 34px;
+    text-align: center;
 }
 .links{
     text-align: center;
@@ -90,7 +91,7 @@ div#navbarNav.collapse.navbar-collapse{
 /* PORTFOLIO PAGE START */
 .col-sm-6.col-md-4.col-lg-7{
     background-color: rgb(43,42, 42);
-    color: #007bb6;
+    color: #00aeff;
     font-size: 25px;
     margin-right: 25px;
     margin-top: 10px;
@@ -102,7 +103,7 @@ div#navbarNav.collapse.navbar-collapse{
 }
 .col-sm-6.col-md-4.col-lg-3{
     background-color: rgb(43,42, 42);
-    color: #007bb6;
+    color: #00aeff;
     font-size: 25px;
     margin-top: 10px;
     height: 225px;
@@ -128,15 +129,13 @@ div#navbarNav.collapse.navbar-collapse{
     position: absolute;
     top: 185px;
     width: 100%;
-    background-color: #0077b5;
+    background-color: #00aeff;
     text-align: center;
     display: block;
     z-index: 2;
     color: #000000;
 }
 .wrapper img {
-    border: 1px solid #0077b5;
-    transition: .4s;
     }
     
 /* PORTFOLIO PAGE END */
@@ -148,5 +147,33 @@ input#exampleInputPassword1.form-control{
 /* CONTACT PAGE END */
 /* Media Queries START */
 /* Media Queries END */
+
+
+
+
+
+
+<h1>Portfolio</h1><hr>
+<div class="wrapper">
+  <img src="./assets/images/img1.jpeg" alt="Hangman Image">
+  <p>Hangman</p>
+</div> 
+<div class="wrapper">
+  <img src="./assets/images/img2.jpeg" alt="RPG Game Image">
+  <p>RPG Game</p>
+</div>
+<div class="wrapper">
+  <img src="./assets/images/img3.jpeg" alt="Trivia Image">
+  <p>Trivia Game</p>
+</div>
+<div class="wrapper">
+  <img src="./assets/images/img4.jpeg" alt="Rutgers Image">
+  <p>Rutgers Info Widget</p>
+</div>
+<div class="wrapper">
+  <img src="./assets/images/img5.jpeg" alt="Paper Rock Scissors Image">
+  <p>Rock Paper Scissors</p>
+</div> 
+
 
 
