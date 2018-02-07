@@ -53,22 +53,18 @@ div#navbarNav.collapse.navbar-collapse{
 /* END LAYOUT FOR EVERYPAGE */
 
 /* ABOUT PAGE START */
-.col-sm-12.col-md-4.col-lg-7{
+.col-sm-12.col-md-6.col-lg-7{
     background-color: rgb(43,42, 42);
     color: #00aeff;
     font-size: 25px;
     margin-right: 25px;
     margin-top: 10px;
-    overflow: auto;
     padding-bottom: 100px;
-    margin-bottom: 10px;
-    height: 645px;
+    margin-bottom: 30px;
     margin-left: 40px;
 }
-.col-sm-12.col-md-4.col-lg-7 img{
-    padding: 25px;
-}
-.col-sm-12.col-md-4.col-lg-7 h1{
+
+.col-sm-12.col-md-6.col-lg-7 h1{
     padding: 25px;
 }
 .col-sm-12.col-md-4.col-lg-4{
@@ -76,7 +72,7 @@ div#navbarNav.collapse.navbar-collapse{
     color: #00aeff;
     font-size: 25px;
     margin-top: 10px;
-    height: 200px;
+    height: 225px;
 }
 .col-sm-12.col-md-4.col-lg-4 h1{
     padding: 15px;
@@ -95,10 +91,8 @@ div#navbarNav.collapse.navbar-collapse{
     font-size: 25px;
     margin-right: 25px;
     margin-top: 10px;
-    overflow: auto;
     padding-bottom: 100px;
     margin-bottom: 10px;
-    height: 735px;
     margin-left: 145px;
 }
 .col-sm-6.col-md-4.col-lg-3{
@@ -121,13 +115,13 @@ div#navbarNav.collapse.navbar-collapse{
     width: 40%;
     float: left;
     margin: 0 15px;
-    overflow: auto;
+    overflow: hidden;
     z-index: 1;
     padding: 10px 15px;
 }
 .wrapper p {
     position: absolute;
-    top: 185px;
+    top: 160px;
     width: 100%;
     background-color: #00aeff;
     text-align: center;
@@ -153,27 +147,6 @@ input#exampleInputPassword1.form-control{
 
 
 
-<h1>Portfolio</h1><hr>
-<div class="wrapper">
-  <img src="./assets/images/img1.jpeg" alt="Hangman Image">
-  <p>Hangman</p>
-</div> 
-<div class="wrapper">
-  <img src="./assets/images/img2.jpeg" alt="RPG Game Image">
-  <p>RPG Game</p>
-</div>
-<div class="wrapper">
-  <img src="./assets/images/img3.jpeg" alt="Trivia Image">
-  <p>Trivia Game</p>
-</div>
-<div class="wrapper">
-  <img src="./assets/images/img4.jpeg" alt="Rutgers Image">
-  <p>Rutgers Info Widget</p>
-</div>
-<div class="wrapper">
-  <img src="./assets/images/img5.jpeg" alt="Paper Rock Scissors Image">
-  <p>Rock Paper Scissors</p>
-</div> 
 
 
 
